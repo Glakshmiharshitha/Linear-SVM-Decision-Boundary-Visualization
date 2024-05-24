@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import svm, datasets
@@ -37,9 +31,6 @@ plt.ylabel('Sepal width')
 plt.xlim(xx.min(), xx.max())
 plt.title('SVC with linear kernel')
 plt.show()
-
-
-# In[ ]:
 
 
 
